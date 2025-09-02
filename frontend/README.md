@@ -1,5 +1,35 @@
 # Getting Started with Create React App
 
+## 🚀 Setup Instructions
+
+### 1️⃣ Install Dependencies
+
+````bash
+cd backend && npm install
+cd ../frontend && npm install
+
+2️⃣ Configure Environment Variables
+Copy .env.example to .env:
+
+bash
+Copy
+Edit
+cp backend/.env.example backend/.env
+Edit .env and fill in your database credentials.
+
+3️⃣ Run Development Mode (Frontend + Backend)
+backend: npm run dev
+frontend: npm start
+
+## **3. Git Commands to Update GitHub**
+
+After adding `.gitignore`, `.env.example`, and updating `README.md`:
+
+```bash
+git add .
+git commit -m "Add .env.example and safe .gitignore setup"
+git push origin main
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -68,3 +98,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+````
